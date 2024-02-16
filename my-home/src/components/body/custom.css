@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+.custom_container{
+    box-sizing: border-box;
+}
+.hero_container{
+    padding-top: 9%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.hero_big_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero_h1{
+    font-family: 'Cormorant Garamond', serif;
+    color: #000;
+    font-size:60px;
+    font-weight: 400;
+    line-height: 1.09em;
+    letter-spacing: .15em;
+}
+.hero_p{
+    font-size: 13px;
+    letter-spacing: .6em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin: 3px 0 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 2.2em;
+    color: #c28562;
+}
+.slider_container{
+    width: 100%;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    margin-top: 2%;
+    z-index:99;
+}
+.swiper {
+    width: 100%;
+    height: 75vh;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+  
+    /* Center slide text vertically */
+     display: flex; 
+     justify-content: center; 
+     align-items: center; 
+    object-fit: fill;
+
+  }
+  .brown_Container{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(17, 10, 10) ;
+    background-image: url("https://hendon.qodeinteractive.com/wp-content/uploads/2020/05/home-1-background-patern-3.png") ;
+    margin-top:-45vh;
+    
+  }
+  .slider_img{
+    widows: 100%;
+    height: 75vh;
+    border-top: 5px solid #855031;
+    border-right: 5px solid #855031;
+    /* backface-visibility: hidden;
+    will-change: transform; */
+    object-fit: fill;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    /* background-color: white; */
+    /* padding: 8px 16px; */
+    border-radius: 100%;
+    border: 2px solid  rgba(170, 110, 110, 0.836);
+    color: rgba(170, 110, 110, 0.836);
+    width: 50px;
+    height: 50px;
+  }
+.brown_cards{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: center;
+  margin-top: 65vh;
+  flex-wrap: wrap;
+ 
+}
+
+.brwon_card_ietms{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex:1 0 250px;
+  height: 240px;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: white;
+}
+.bown_circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 1px solid  #c28562;
+}
+.brown_card_text_h1{
+  margin-top: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 60px;
+}
+.brown_card_text_p{
+   font-size: 16px;
+   color: rgb(165, 164, 164);
+   font-weight: 600;
+   letter-spacing: 1.4px;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .brown_Container{
+     height: 205vh;
+   }
+   .slider_img{
+    widows: 100%;
+    height: 35vh;
+    object-fit: cover;
+  }
+  .brown_cards{
+    margin-top: 35vh;
+   
+  }
+  .hero_h1{
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero_p{
+    font-size: 11px;
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  .slider_container{
+    margin-top: -20%;
+    z-index:99;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+   
+  }
+  
+}
+
+

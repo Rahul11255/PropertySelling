@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+.hiv_container{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ flex-wrap: wrap;
+ padding-left:9%;
+ padding-right: 9%;
+}
+.hiv_items{
+    background-image: url("https://hendon.qodeinteractive.com/wp-content/themes/hendon/assets/img/pattern.png");
+    margin: 10px;
+    flex: 1 1 300px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-end;
+    position: relative;
+    padding: 15px 30px;
+    overflow: hidden;
+    border-right:6px double  rgba(170, 110, 110, 0.836);
+    border-bottom:6px double  rgba(170, 110, 110, 0.836);
+}
+.hiv_h1_text{
+  font-family: "Cormorant Garamond";
+  text-transform: uppercase;
+  color: #000;
+  font-size: 30px;
+  line-height: 1em;
+  font-weight: 500;
+  letter-spacing: .1em;
+  margin: 20px 0;
+  word-wrap: break-word;
+}
+.hiv_p_text{
+  font-family: "Cormorant Garamond";
+  font-size: 22px;
+  color: rgb(95, 94, 91);
+  line-height: 25px;
+  z-index:10;
+}
+.house_img{
+  width: 210px;
+  height: 140px;
+}
+.hiv_img{
+  position: absolute;
+  margin-right:70px ;
+  margin-top:120px ;
+}
+.hivtable_img{
+  position: absolute;
+  margin-right:95px ;
+  margin-top:48px ;
+}
+.table_img{
+  width: 230px;
+  height: 230px;
+}
+.hivbeach_img{
+  position: absolute;
+  margin-right:60px ;
+  margin-top:25px ;
+}
+.beach_img{
+  width: 220px;
+  height: 235px;
+}

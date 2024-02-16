@@ -1,0 +1,119 @@
+.single_container {
+  width: 100%;
+  height: 100vh;
+}
+.single_body_container {
+  width: 100%;
+  height: 87vh;
+}
+.single_body_top_images {
+  width: 100%;
+  height: 60vh;
+  background-image: url("../images/treeSingle.jpg");
+  background-position: left center;
+  padding: 4% 10%;
+  display: flex;
+}
+
+.glass_container {
+  /* z-index: -0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  width: 100%;
+  height: 42vh;
+  color: white;
+  font-size: 40px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.075);
+  backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(1.2px);
+  border: 1px solid rgba(55, 235, 10, 0.14);
+}
+
+.single_property_details {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  padding: 2% 5%;
+}
+.single_left_image {
+  width: 100%;
+  height: 70vh;
+}
+.single_right_details {
+  width: 100%;
+  height: 70vh;
+  padding: 2% 3%;
+}
+.left_images {
+  width: 100%;
+  height: 70vh;
+  border-radius: 5px;
+}
+.right_particular_Detials {
+  height: 40px;
+  width: auto;
+  margin-top: 10px;
+  background-color: rgba(59, 139, 139, 0.466);
+  border-left: 5px solid rgb(2, 10, 44);
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0px 15px;
+  cursor: pointer;
+}
+.right_particular_Detials:hover {
+  border: 2px solid rgb(255, 140, 0);
+  background-color: white;
+}
+.single_right_P {
+  margin-top: 5px;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+}
+.single_span {
+  color: rgb(5, 46, 56);
+  font-weight: 700;
+}
+.contact_details {
+  height: 40px;
+  width: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+  background-color: rgb(7, 96, 102);
+  letter-spacing: 6px;
+  border-radius: 5px;
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .single_body_top_images {
+    height: 45vh;
+    padding: 6% 20%;
+  }
+  .glass_container {
+    margin-top: 35px;
+    width: 100%;
+    height: 20vh;
+    font-size: 15px;
+    background: transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(3.1);
+    z-index: inherit;
+  }
+  .single_property_details {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+    margin-top: 40px;
+  }
+}

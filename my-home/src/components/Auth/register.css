@@ -1,0 +1,134 @@
+
+.register_container{
+    width: 100%;
+    height: 87vh;
+    display: flex;          
+    flex-direction: row;
+    padding: 2% 7%;
+}
+ .register_form{
+    border-radius: 2px;
+}
+.register_images{
+    width: 40%;
+    background-image: url("https://images.pexels.com/photos/3224115/pexels-photo-3224115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size:cover;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+.register_form{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://images.pexels.com/photos/1166643/pexels-photo-1166643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* align-items: center; */
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+.register_form_container{
+    width: 100%;
+}
+.top_register{
+    margin-top: 2%;
+    width: 100%;
+}
+.register_h3{
+    font-size: 30px;
+    font-weight:400;
+    color: rgb(21, 57, 87);
+    letter-spacing: 1.5px;
+}
+.bottom_register{
+    width: 100%;
+    padding: 3% 13%;
+}
+.register_text_email{
+    display: flex;
+    flex-direction: column;
+}
+.name_text, .name_email, .name_number{
+    width: 100%;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    color: grey;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1.5px solid rgba(184, 176, 176, 0.877);
+    background-color: transparent;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+}
+.register_radio_button{
+    display: flex;
+    
+}
+label, .radio{
+    color: rgb(73, 70, 70);
+    margin-top: 20px;
+    cursor: pointer;
+}
+label:active{
+    color: black;
+}
+.radio{
+    accent-color:#ca5410;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.register_hr{
+    color:rgba(184, 176, 176, 0.877);
+}
+.regsiter_btn{
+    background-color: rgb(21, 57, 87);
+    margin-top: 25px;
+    padding:3px 3px 3px 3px;
+    cursor: pointer;
+}
+.regsiter_btn:active{
+    margin-top: 1em;
+    background-color: rgb(105, 231, 80)
+    /* background-color: #ebaf0a; */
+}
+.navbar_register_container{
+    margin-top: -3.3%;
+    background-color: #015463e1;
+    width: 100%;
+    background-image: url("https://hendon.qodeinteractive.com/wp-content/uploads/2020/05/home-1-background-patern-3.png");
+    height: 13vh;
+}
+@media only screen and (max-width: 800px) {
+    .register_container{
+        flex-direction: column;
+        padding: 7% 7%;
+    }
+    .register_form{
+        width: 100%;
+        height: 95vh;
+    }
+
+    .name_text, .name_email, .name_number{
+        height: 60px;
+    }
+    .regsiter_btn{
+        margin-top: 45px;
+        padding:3px 3px 3px 3px;
+        cursor: pointer;
+    }
+    .navbar_register_container{
+        margin-top: 0%;
+        /* background-color: #cfae9b; */
+        width: 100%;
+        z-index: auto;
+        /* height: vh; */
+    }
+}

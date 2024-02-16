@@ -1,0 +1,205 @@
+.create_container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.create_container_1 {
+  width: 100%;
+  height: 85.1vh;
+  /* padding: 1% 2%; */
+  display: flex;
+}
+.create_property {
+  height: 5vh;
+  background-image: url("https://hendon.qodeinteractive.com/wp-content/uploads/2020/05/home-1-background-patern-3.png");
+  background-color:rgba(172, 49, 4, 0.685);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.create_property:active {
+  background-color: rgb(42, 81, 112);
+  transform: scale(0.99);
+}
+.property_text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  /* align-items: center;
+  text-align: center; */
+  letter-spacing: 1px;
+  margin-top: 2px;
+}
+.create_left {
+  width: 20%;
+  background-color: rgba(21, 57, 87, 0.932);
+  background-image: url("https://hendon.qodeinteractive.com/wp-content/uploads/2020/05/home-1-background-patern-3.png");
+}
+.left_top_headline{
+  width: 100%;
+  height: 120px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.headline_text{
+  color: white;
+  font-size: 26px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+.list_hr{
+  color: white;
+  margin-top: -10px;
+}
+.list_hr_1{
+  color: white;
+  margin-top: -12px;
+}
+.owener_name{
+  text-transform: capitalize;
+  color: white;
+  font-size: 16px;
+  padding: 7px 13px;
+  background-color: rgba(255, 255, 255, 0.219);
+  backdrop-filter:blur(10px) ;
+  border-radius: 10px;
+  letter-spacing: 1px;
+}
+.create_right {
+  width: 60%;
+  height: 84.5vh;
+  /* padding: 1% 1.5%; */
+}
+.right_container{
+   width: 100%;
+   height: 82.5vh;
+   justify-content: center;
+   align-items: flex-start;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 1% 1%;
+   overflow-x: hidden;
+   background-image: url("https://hendon.qodeinteractive.com/wp-content/uploads/2020/04/home-1-background-patern-1.jpg");
+}
+.right_container_itmes{
+  flex: 1 0 250px;
+  background-image: url("https://hendon.qodeinteractive.com/wp-content/uploads/2020/05/home-1-background-patern-3.png");
+  background-color: rgba(21, 57, 87, 0.932);
+  height: 280px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 1% 2%;
+  border-radius: 5px;
+  /* background-image: url("https://hendon.qodeinteractive.com/wp-content/uploads/2020/05/home-1-background-patern-2.jpg"); */
+
+}
+
+.card_top_headline{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.219);
+  padding: 0% 2%;
+  height: 30px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  border-left: 4px solid rgba(23, 248, 2, 0.856);
+
+}
+.card_images_container{
+  width: 100%;
+  margin-top: 6px;
+}
+.card_images{
+  width: 100%;
+  height: 220px;
+  letter-spacing: 1.5px;
+  /* margin-top: -5px; */
+  border-radius: 5px;
+}
+.card_dimensions{
+  background-color: rgba(255, 255, 255, 0.219);
+  border-left: 4px solid rgba(23, 248, 2, 0.856);
+  height: 30px;
+  margin-top: 6px;
+  padding: 0% 2%;
+  color: white;
+  border-radius: 10px;
+  letter-spacing: 1.5px;
+
+}
+.card_address{
+  background-color: rgba(255, 255, 255, 0.219);
+  height: 30px;
+  margin-top: 6px;
+  border-left: 4px solid rgba(23, 248, 2, 0.856);
+
+  padding: 0% 2%;
+  color: white;
+  border-radius: 10px;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+
+}
+
+
+
+
+
+.list_Container{
+  overflow-y: auto;
+  height: 64.3vh;
+  padding: 2% 8%;
+  
+}
+.list_li{
+  color:white;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 300;
+}
+/*.................................................... modal style............................................ */
+
+.modalcontainer {
+  margin-top: 3rem;
+  margin-left: 35%;
+  width: 50%;
+}
+.modalHeader {
+  height: 9vh;
+  background-image: url("https://hendon.qodeinteractive.com/wp-content/uploads/2020/05/home-1-background-patern-3.png");
+  background-color: rgb(27, 67, 100);
+  display: flex;
+  justify-content: center;
+}
+.modalheader_text {
+  color: white;
+  display: flex;
+}
+.modalfooter {
+ height: 12vh;
+ background-image: url("https://hendon.qodeinteractive.com/wp-content/uploads/2020/05/home-1-background-patern-3.png");
+  background-color: rgb(27, 67, 100);
+}
+.modalbody {
+  height: 60vh;
+  background-image: url("https://hendon.qodeinteractive.com/wp-content/uploads/2020/04/home-1-background-patern-1.jpg");
+  float: left;
+  
+}
+.modalfooterbutton {
+  width: 100px;
+  margin-right: 50px;
+  font-size: 1.2rem;
+}
+.create_form_body{
+  padding: 3% 5%;
+}

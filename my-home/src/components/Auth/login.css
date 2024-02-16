@@ -1,0 +1,111 @@
+.login_cotainer {
+  width: 100%;
+  height: 87vh;
+  display: flex;
+  flex-direction: row;
+  padding: 2% 7%;
+}
+.login_images {
+  width: 40%;
+  background-image: url("https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-135.jpg?size=626&ext=jpg&ga=GA1.1.1132075341.1687758907&semt=ais");
+  background-size: cover;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.login_name_email,
+.login_name_password {
+  width: 100%;
+  width: 100%;
+  height: 80px;
+  font-size: 16px;
+  color: grey;
+  font-family: "Raleway", sans-serif;
+  outline: none;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1.5px solid rgba(184, 176, 176, 0.877);
+  background-color: transparent;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+}
+.login_form {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(206, 228, 231, 0.596);
+  background-position: top center;
+  background-size: cover;
+  text-align: center;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.login_btn {
+  background-color: rgb(21, 57, 87);
+  margin-top: 55px;
+  padding: 3px 3px 3px 3px;
+  cursor: pointer;
+}
+.login_btn:active {
+  margin-top: 3em;
+  background-color: rgb(80, 208, 231);
+  /* background-color: #ebaf0a; */
+}
+.new_user_register {
+  margin-top: 10px;
+}
+.nav-link {
+  text-decoration: none;
+  color: rgb(22, 61, 97);
+  font-weight: 600;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.login_h3{
+    font-size: 30px;
+    font-weight:400;
+    color: rgb(21, 57, 87);
+    letter-spacing: 1.5px;
+}
+@media only screen and (max-width: 800px) {
+
+  .login_cotainer {
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 7%;
+  }
+  .login_images {
+    opacity: 0.8;
+    width: 100%;
+    height: 40vh;
+    box-shadow: none;
+    background-position: top center;
+    background-image: url("https://img.freepik.com/free-vector/night-ocean-landscape-full-moon-stars-shine_107791-7397.jpg?size=626&ext=jpg&ga=GA1.2.1132075341.1687758907&semt=ais");
+  }
+  .login_form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/free-photo/beautiful-dusk-light-colorful-beauty_1203-5706.jpg?size=626&ext=jpg&ga=GA1.1.1132075341.1687758907&semt=ais");
+    /* background-color: rgba(55, 102, 156, 0.986); */
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+    box-shadow: none;
+  }
+  .login_name_email,
+  .login_name_password {
+    height: 50px;
+  }
+  .login_btn {
+    background-color: rgb(21, 57, 87);
+    margin-top: 30px;
+    padding: 3px 3px 3px 3px;
+    cursor: pointer;
+  }
+  .mobile_login{
+    color: white;
+  }
+}
+/* https://img.freepik.com/free-vector/night-ocean-landscape-full-moon-stars-shine_107791-7397.jpg?size=626&ext=jpg&ga=GA1.2.1132075341.1687758907&semt=ais */

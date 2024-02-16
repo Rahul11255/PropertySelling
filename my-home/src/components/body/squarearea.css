@@ -1,0 +1,41 @@
+
+.square_container{
+    width: 100%;
+    height: auto;
+    background-image: url("https://hendon.qodeinteractive.com/wp-content/themes/hendon/assets/img/pattern.png");
+
+}
+.square_container_1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 9%;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+
+.square_container_items{
+    flex: 1 1 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.num{
+    font-size: 110px;
+    color: rgb(221, 115, 44);
+    opacity: 0.2;
+}
+
+.square_text_p{
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: .5em;
+  font-family: "Raleway";
+  color: rgb(7, 4, 4);
+  font-weight:500;
+}
